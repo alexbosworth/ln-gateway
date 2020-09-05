@@ -1,0 +1,16 @@
+{
+  "author": "Alex Bosworth",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "ln-service": "49.9.1"
+  },
+  "description": "Lightning Network gateway service",
+  "license": "MIT",
+  "main": "server.js",
+  "name": "ln-gateway",
+  "scripts": {
+    "build-docker": "docker build -t alexbosworth/ln-gateway . && docker save alexbosworth/ln-gateway > ln-gateway.tar && gzip ln-gateway.tar",
+    "start": "node server.js"
+  },
+  "version": "1.0.0"
+}

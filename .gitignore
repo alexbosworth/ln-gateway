@@ -1,0 +1,7 @@
+*~
+*.gz
+.env
+.nyc_output
+node_modules
+server.crt
+server.key

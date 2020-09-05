@@ -1,0 +1,6 @@
+.env
+*.gz
+node_modules
+npm-debug.log
+server.crt
+server.key
